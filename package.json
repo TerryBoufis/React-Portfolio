@@ -13,6 +13,7 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "start": "react-scripts start",
     "predeploy": "npm run build",
     "deploy": "gh-pages -r https://github.com/TerryBoufis/React-Portfolio.git -b gh-pages -d build",
     "build": "react-scripts build",
