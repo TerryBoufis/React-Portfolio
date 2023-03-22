@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/React-Portfolio/static/css/main.69f7fe6a.css",
+    "main.js": "/React-Portfolio/static/js/main.409df839.js",
+    "static/js/787.a2cb61a6.chunk.js": "/React-Portfolio/static/js/787.a2cb61a6.chunk.js",
+    "static/media/RecipeBook.jpg": "/React-Portfolio/static/media/RecipeBook.e0bdb67f4ae26c290e4c.jpg",
+    "static/media/Weather.jpg": "/React-Portfolio/static/media/Weather.d84e38aa9a6a0804b139.jpg",
+    "static/media/Website.jpg": "/React-Portfolio/static/media/Website.71be70e9784a184aad88.jpg",
+    "static/media/List.jpg": "/React-Portfolio/static/media/List.023a8ea4b2270d8d573d.jpg",
+    "static/media/BookReviews.jpg": "/React-Portfolio/static/media/BookReviews.042e72decd2f97b056cf.jpg",
+    "static/media/Password.jpg": "/React-Portfolio/static/media/Password.3389d13466ce23102e01.jpg",
+    "static/media/ProfilePicture.jpg": "/React-Portfolio/static/media/ProfilePicture.7f005d414802cf8e9e24.jpg",
+    "static/media/TerryBoufis_Resume.pdf": "/React-Portfolio/static/media/TerryBoufis_Resume.e20e8c5d31f84d993215.pdf",
+    "index.html": "/React-Portfolio/index.html",
+    "main.69f7fe6a.css.map": "/React-Portfolio/static/css/main.69f7fe6a.css.map",
+    "main.409df839.js.map": "/React-Portfolio/static/js/main.409df839.js.map",
+    "787.a2cb61a6.chunk.js.map": "/React-Portfolio/static/js/787.a2cb61a6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.69f7fe6a.css",
+    "static/js/main.409df839.js"
+  ]
+}
