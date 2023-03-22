@@ -16,9 +16,16 @@ main {
   flex-grow: 1;
 }
 
-img {
-  max-height: 8rem;
-  max-width: 8rem;
+.profilePic {
+  height: 500px;
+    width: 500px;
+    padding: 10px;
+    flex: 1 0 400px;
+}
+
+.profilePic img {
+  width: 100%;
+  height: 100%;
 }
 
 #contact {
@@ -37,17 +44,19 @@ form {
 }
 
 .container {
-  max-width: 800px;
+  /* max-width: 800px;
   min-height: 400px;
   margin-inline: auto;
-  display: flex;
+  align-items: center;
+  align-content: flex-start;*/
   gap: 0.5rem;
   justify-content: center;
-  align-items: center;
+  padding: 5%;
+  display: flex;
   flex-flow: row wrap;
-  align-content: flex-start;
+  /* flex: flex-wrap; */
+  max-width: 100%;
   background-color: #ca04b9;
-  padding: 5% 0;
 }
 
 .box {
@@ -60,18 +69,12 @@ form {
   border: 3px solid #3d8dde;
 }
 
-@media (max-width: 550px) {
-  .container {
-    flex-direction: column;
-  }
-}
-
 .box img {
   max-width: 300px;
   max-height: 300px;
   display: block;
 }
-footer {
+/* footer {
   background-color: #3d8dde;
   color: #000000;
 }
@@ -79,21 +82,23 @@ footer {
 footer h2 {
   display: inline-block;
   font-size: 25px;
-  
 }
 
 footer nav {
   padding-top: 15px;
   float: none;
   text-align: center;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-size: 18px;
-
-}
+} */
 
 a {
   color: black;
   text-decoration: none;
+  display: flex;
+  flex-wrap: wrap;
+  text-overflow: ellipsis;
+  padding-top: 30px;
   /* border: 2px solid red; */
 }
 
@@ -101,25 +106,28 @@ footer ul {
   padding: 15px;
   margin: 20px;
   float: none;
-  
 }
 
 footer ul li {
-  display: inline-block;
+  display: flex;
   margin-right: 20px;
-
+  flex-wrap: wrap;
 }
 
 ul {
   background-color: #3d8dde;
   text-align: center;
-  
-  color: black;
+  display: flex;
+  flex-wrap: wrap;
 
+  color: black;
 }
 
 h1 {
   background-color: #3d8dde;
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 h2 {
@@ -159,7 +167,6 @@ button:hover {
   font-size: 20px;
   padding: 20px;
   border: 3px solid #3d8dde;
-  
 }
 
 #contact-container {
@@ -169,21 +176,19 @@ button:hover {
   align-items: center;
   justify-content: center;
   padding: 5% 5% 5% 5%;
-  
 }
 
 #resumeBtn {
-  margin: auto
+  margin: auto;
 }
 
 #resume-container {
   height: 100%;
-  
-
 }
 
 #Contact-Me {
   background-color: #3d8dde;
+  height: 100px;
   color: #000000;
 }
 
@@ -193,28 +198,37 @@ button:hover {
 } */
 
 #Contact-Me nav {
-  padding-top: 15px;
+  /* padding-top: 15px;
   float: none;
-  text-align: center;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  font-size: 18px;
-
+  text-align: center;*/
+  
 }
 
 #Contact-Me ul {
-  padding: 15px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  /* font-size: 18px;border: 2px solid lime; */
+  overflow: hidden;
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  /* padding: 15px;
   margin: 20px;
-  float: none;
+  max-width: 100%;
+  float: none; */
 }
 
 #Contact-Me li {
-  display: inline-block;
-  margin-right: 20px;
-
+  /* margin-right: 20px; */
 }
 
-#aboutMe img {
-  max-width:300px;
-  max-height: 400px;
-  display: block;
+@media (min-width: 700px) {
+  #aboutMe {
+    display: flex;
+  }
+}
+
+#Nav-Items {
+  background-color: #3d8dde;
+  height: 100px;
+  color: #000000;
 }

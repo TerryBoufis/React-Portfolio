@@ -13,7 +13,8 @@ const styles = {
 
 export function Header({ currentPage, setCurrentPage }) {
   return (
-    <div>
+    <div id="Header">
+    <div id="Nav-Items">
       <h1>Terry Boufis</h1>
       <nav>
         <ul style={styles.navBar}>
@@ -30,6 +31,7 @@ export function Header({ currentPage, setCurrentPage }) {
           })}
         </ul>
       </nav>
+    </div>
     </div>
   );
 }
